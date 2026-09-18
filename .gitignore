@@ -1,0 +1,24 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Python / JS / local build artifacts
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Local caches/log dumps
+.cache/
+*.log
+
+# Secrets / credentials
+*token*
+*secret*
+*.key
+*.pem
