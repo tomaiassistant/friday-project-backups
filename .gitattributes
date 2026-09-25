@@ -1,1 +1,2 @@
 backups/hermes-backup-*.tar.gz filter=lfs diff=lfs merge=lfs -text
+backups/project-backup-*.tar.gz filter=lfs diff=lfs merge=lfs -text
