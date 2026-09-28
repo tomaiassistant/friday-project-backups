@@ -23,7 +23,9 @@ For AI Knowledge-related tasks, the agent should:
 
 1. Capture the instruction in a task file when substantive.
 2. Add or update a relevant memory/doc/spec/decision note.
-3. Record important decisions in `decisions/`.
+3. Record important decisions in `decisions/` with the full ADR sections:
+   Context, Decision, Alternatives Considered, Consequences (see
+   `docs/learning-pipeline.md`; Hermes skill `architecture-decision-records`).
 4. Add a short log entry in `shared/logs/`.
 5. Write coordination messages for other agents if needed.
 6. Preserve implementation notes and results.
